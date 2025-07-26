@@ -18,7 +18,7 @@
 
 ## 🚀 Live Demo
 
-➡️ [Play Directo Live](https://Suyash-Sawant.github.io/Directo-game/)  
+➡️ [Play Directo Live](https://sawant-suyash.github.io/Directo-game/)  
 
 ---
 
