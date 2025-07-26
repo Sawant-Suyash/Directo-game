@@ -116,7 +116,7 @@ function check(indice){
 
 // plays sound relevant to clicked/pressed directo
 function playSound(directo) {
-    var audio = new Audio("./sounds/" + directo + ".wav");
+    var audio = new Audio(directo + ".wav");
     audio.play();
 }
 
