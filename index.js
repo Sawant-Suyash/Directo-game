@@ -40,12 +40,14 @@ $(".box").on("click", function(event) {
     check(clickPattern.length - 1);
 })
 
+//listens to keydowns, creates a var to store the pressed key, passes it to keyPress & check
 $(document).on("keydown", function(event) {
     var thisDirecto = (event.key);
     keyPress(thisDirecto);
     check(clickPattern.length - 1);
 });
 
+//depending upon the key pressed names,pushes & passes the name of the key to play its sound & animate the relevant arrow
 function keyPress(key) {
     switch (key) {
 
@@ -112,11 +114,13 @@ function check(indice){
 
 // Accesory functions
 
+// plays sound relevant to clicked/pressed directo
 function playSound(directo) {
     var audio = new Audio("./sounds/" + directo + ".wav");
     audio.play();
 }
 
+//animates clicked/pressed directo
 function animate(directo) {
     $("#" + directo).addClass("clicked");
 
@@ -125,6 +129,7 @@ function animate(directo) {
     }, 200)
 }
 
+//displays current directo
 function display(directo) {
     $("#canvas-" + directo).removeClass("hide");
 
