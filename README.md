@@ -18,8 +18,7 @@
 
 ## 🚀 Live Demo
 
-➡️ [Play Directo Live](https://yourusername.github.io/yourproject-name/)  
-*(This link will work after GitHub Pages is set up — see instructions below.)*
+➡️ [Play Directo Live](https://Suyash-Sawant.github.io/Directo-game/)  
 
 ---
 
